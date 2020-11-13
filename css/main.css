@@ -41,6 +41,6 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-img {
-  border-radius: 50%;
+.img-circle {
+    border-radius: 50%;
 }
