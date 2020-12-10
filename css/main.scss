@@ -1,0 +1,94 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+// Imports
+
+@import 
+    // The original imports...
+    "github-markdown",
+    "github"
+;
+
+
+body {
+	margin: 60px auto;
+	width: 60%;
+}
+nav {
+	ul {
+		font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+		padding: 0px;
+		list-style: none;
+		font-weight: bold;
+		li {
+			display: inline;
+			margin-right: 20px;
+		}
+	}
+}
+footer {
+	ul {
+		font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+		padding: 0px;
+		list-style: none;
+		font-weight: bold;
+		li {
+			display: inline;
+			margin-right: 20px;
+		}
+	}
+	border-top: 1px solid #d5d5d5;
+	font-size: .8em;
+}
+a {
+	text-decoration: none;
+	color: #999;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+h1 {
+	font-size: 3em;
+	font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+}
+h2 {
+	font-size: 2.2em;
+	font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+}
+h3 {
+	font-size: 1.8em;
+	font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+}
+p {
+	font-size: 1.5em;
+	font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+	line-height: 1.4em;
+	color: #333;
+}
+ul.posts {
+	margin: 20px auto 40px;
+	font-size: 1.5em;
+	li {
+		list-style: none;
+	}
+}
+.markdown-body h1 {
+  font-size: 64px;
+  margin: .67em 0;
+}
+.markdown-body h2 {
+  font-size: 32px;
+  margin: .67em 0;
+}
+
+.markdown-body table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+  display: table
+}
+.grid-container {
+  display: grid;
+}
